@@ -9,7 +9,7 @@ public class Maanden {
         do {
             out.println("Kies een getal tussen 1 en 12:");
             month = keyboard.nextInt();
-        } while (month > 12 | month <= 0) ;
+        } while (month > 12 | month <= 0);
 
 
         switch (month) {
